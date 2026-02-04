@@ -108,6 +108,7 @@ def process_image(image_path: str, output_dir: str,
             image_size=image_size,
             crop_mode=crop_mode,
             save_results=False,
+            eval_mode=True,  # 必须为 True 才能返回结果！
         )
 
     # 提取 markdown 内容
