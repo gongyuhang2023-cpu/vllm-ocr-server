@@ -1,0 +1,11 @@
+# DeepSeek-OCR-2 Server Dependencies
+torch>=2.0.0
+transformers>=4.46.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
+python-multipart>=0.0.6
+pymupdf>=1.23.0
+Pillow>=9.0.0
+einops
+addict
+easydict
